@@ -17,7 +17,8 @@
     "minify:browser": "uglifyjs --compress --mangle --screw-ie8 -o=./dist/index.min.js -- ./dist/index.js",
     "compress:browser": "./scripts/gzip.js --file=./dist/index.min.js",
     "watch": "tsc -w",
-    "lint": "tslint 'src/*.ts*' && tslint 'test/*.ts*'"
+    "lint": "tslint 'src/*.ts*' && tslint 'test/*.ts*'",
+    "sitedrive": "npm run compile && cp ./lib/*.js ../sitedrive/web-app/node_modules/react-apollo/lib/."
   },
   "repository": {
     "type": "git",
