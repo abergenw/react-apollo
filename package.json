@@ -133,8 +133,8 @@
     "uglify-js": "^2.6.2"
   },
   "dependencies": {
-    "apollo-client": "^1.2.2",
-    "graphql-anywhere": "^3.0.0",
+    "apollo-client": "https://github.com/abergenw/apollo-client/releases/download/performance-improvements/apollo-client-1.2.2.tgz",
+    "graphql-anywhere": "https://github.com/abergenw/graphql-anywhere/releases/download/merge-nested-objects/graphql-anywhere-3.0.1.tgz",
     "graphql-tag": "^2.0.0",
     "hoist-non-react-statics": "^1.2.0",
     "invariant": "^2.2.1",
